@@ -2,11 +2,11 @@ import streamlit as st
 from dotenv import load_dotenv
 import os
 
-from src.pdf_processor import extract_pdf
-from src.nlp_processor import analyze_text
-from src.chunker import chunk_pages
-from src.retriever import TfidfRetriever
-from src.ai_engine import generate_summary, answer_question, explain_paper
+from pdf_processor import extract_pdf
+from nlp_processor import analyze_text
+from chunker import chunk_pages
+from retriever import TfidfRetriever
+from ai_engine import generate_summary, answer_question, explain_paper
 
 load_dotenv()
 
